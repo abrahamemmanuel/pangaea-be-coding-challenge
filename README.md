@@ -64,7 +64,7 @@ php artisan serve --port=8000
 
 ### Plugins
 
-Guzzle is used to forward hhtp request within internal api
+Guzzle is used to forward hhtp request within internal api within this appication
 
 * To install Guzzle, use the command
 ```sh
