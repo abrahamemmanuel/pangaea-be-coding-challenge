@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * author: Emmanuel Abraham
+ * email: sundayemmanuelabraham@gmail.com
+ * sugnature: iamaprogrammer
+ * dated: 10th - 12th November, 2020
+ * Location: Lagos, Niigeria
+ */
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +19,9 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
- return view('welcome');
-});
+// Route::get('/', function () {
+//  return view('welcome');
+// });
 
 //route to create topic
 Route::post('/topic/create', 'PubSubController@store');
