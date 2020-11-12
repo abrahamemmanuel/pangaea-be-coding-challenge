@@ -17,7 +17,6 @@ class CreateTopicsTable extends Migration
    $table->id();
    $table->string('topic');
    $table->string('message')->nullable();
-   $table->string('url')->nullable();
    $table->timestamps();
   });
  }

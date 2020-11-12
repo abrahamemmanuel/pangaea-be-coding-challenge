@@ -17,13 +17,11 @@ Route::get('/', function () {
  return view('welcome');
 });
 
-//route to create event
-Route::post('/event/create', 'EventController@store');
 //route to create topic
-Route::post('/topic/create', 'TopicController@store');
+Route::post('/topic/create', 'PubSubController@store');
 //route to subcribe to an event
-Route::post('/subscribe/{topic}', 'TopicController@subscribe');
+Route::post('/subscribe/{topic}', 'PubSubController@subscribe');
 //route to publish topic
-Route::post('/publish/{topic}', 'TopicController@publish');
+Route::post('/publish/{topic}', 'PubSubController@publish');
 //route to view event
-Route::post('/event', 'TopicController@eventTrigger');
+Route::post('/event', 'PubSubController@eventTrigger');

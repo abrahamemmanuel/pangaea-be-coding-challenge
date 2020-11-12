@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Topic extends Model
 {
- protected $fillable = ['topic', 'message', 'url'];
+ protected $fillable = ['topic', 'message'];
 }
