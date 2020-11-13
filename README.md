@@ -57,6 +57,12 @@ $ git clone git@github.com:abrahamemmanuel/pangaea-be-coding-challenge.git
 ```sh
 $ gh repo clone abrahamemmanuel/pangaea-be-coding-challenge
 ```
+
+Run migration...after DB credentials are set in your .env file
+```sh
+php artisan migrate
+```
+
 Start the development server...
 ```sh
 php artisan serve --port=8000
