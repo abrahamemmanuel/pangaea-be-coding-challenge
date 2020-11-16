@@ -5,9 +5,6 @@
 
 Recreating a pub / sub system using HTTP requests.
 
-  - No GCP
-  - No Kafka etc.
-  - Just http requests
 
 # Publisher Server Requirements
 #### Setting up a subscription
