@@ -11,6 +11,13 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 
+/**
+ * author: Emmanuel Abraham
+ * email: sundayemmanuelabraham@gmail.com
+ * sugnature: iamaprogrammer
+ * dated: 10th - 12th November, 2020
+ * Location: Lagos, Niigeria
+ */
 class PubSubJob implements ShouldQueue
 {
  public $message;

@@ -1,8 +1,6 @@
 # Pangaea BE Coding Challenge
 * by Emmanuel Abraham
 
-[![N|Solid](https://www.zetamindgroup.com/signature/Emmanuel.jpg)]
-
 
 
 Recreating a pub / sub system using HTTP requests.
